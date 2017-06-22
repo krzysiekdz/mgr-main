@@ -11,8 +11,9 @@ modelu i manipulowanie nimi (dodawanie, usuwanie, edycja, zamiana miejscami, fil
 Ka¿da operacja zajmuje czas. Gdy elementów jest du¿o, czas ten jest wielokrotnie wiekszy 
 (co pozwala wychwiciæ ró¿nice). W pracy badam ile czasu zajmuje poszczegolnym frameworkom 
 wykonywanie tych operacji i porównujê te wyniki ze sob¹. 
-Aplikacje testowe dostepne s¹ w repozytoriach mgr-angular1, mgr-angular2, mgr-react, mgr-vanilla. 
+Aplikacje testowe dostepne s¹ w repozytoriach mgr-test-app-angular1, mgr-test-app-angular2, mgr-test-app-react, mgr-test-app-vanillajs. 
 Chc¹c uruchomiæ ca³y projekt, nalezy je wszystkie pobraæ do tego katalogu (main). 
+Wiecej info: https://github.com/krzysiekdz/mgr-test-app-prototype
 
 2.
 Do badañ aplikacji testowych wspominanych wy¿ej, utworzylem kolejn¹ aplikacjê (by zautoamtyzowac 
@@ -37,6 +38,9 @@ W efekcie otrzymam czasy trwania poszczegolnych operacji (zwanych benchmarkami) 
 
 Powy¿sze kroki programowo wykonujê za pomoc¹ aplikacji umieszczonych 
 w repozytoriach mgr-app1, mgr-app2, mgr-app3.
+https://github.com/krzysiekdz/mgr-app1
+https://github.com/krzysiekdz/mgr-app2
+https://github.com/krzysiekdz/mgr-app3
 Chcac uruchomiæ projekt, nale¿y je pobraæ do tego katalogu (main).
 
 3.
