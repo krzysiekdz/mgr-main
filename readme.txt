@@ -18,7 +18,8 @@ https://github.com/krzysiekdz/mgr-test-app-angular2 (w trakcie pracy)
 react-js (w trakcie pracy)
 Chc¹c uruchomiæ ca³y projekt, nalezy je wszystkie pobraæ do tego katalogu (main). 
 
-Opis funkcjonalnisci aplikacji testowej : https://github.com/krzysiekdz/mgr-test-app-prototype
+Opis funkcjonalnisci aplikacji testowych (wa¿ne): 
+https://github.com/krzysiekdz/mgr-test-app-prototype
 
 
 2.
