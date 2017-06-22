@@ -12,6 +12,10 @@ Ka¿da operacja zajmuje czas. Gdy elementów jest du¿o, czas ten jest wielokrotnie
 (co pozwala wychwiciæ ró¿nice). W pracy badam ile czasu zajmuje poszczegolnym frameworkom 
 wykonywanie tych operacji i porównujê te wyniki ze sob¹. 
 Aplikacje testowe dostepne s¹ w repozytoriach mgr-test-app-angular1, mgr-test-app-angular2, mgr-test-app-react, mgr-test-app-vanillajs. 
+https://github.com/krzysiekdz/mgr-test-app-vanillajs
+https://github.com/krzysiekdz/mgr-test-app-angular1
+https://github.com/krzysiekdz/mgr-test-app-angular2 (w trakcie pracy)
+react-js (w trakcie pracy)
 Chc¹c uruchomiæ ca³y projekt, nalezy je wszystkie pobraæ do tego katalogu (main). 
 
 Opis funkcjonalnisci aplikacji testowej : https://github.com/krzysiekdz/mgr-test-app-prototype
