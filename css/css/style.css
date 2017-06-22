@@ -1,0 +1,120 @@
+body {
+	margin: 0px;
+}
+
+.app {
+	position: relative;
+}
+
+.content {
+	/*width: 78%;*/
+	will-change: transform;	
+	width: 900px;
+	/*left: 20%;*/
+	left: 360px;
+	position: absolute;
+	z-index: 1;
+	background-color: white;
+}
+
+.menu {
+	will-change: transform;
+	position: fixed;
+	/*left: 1%;*/
+	left: 5px;
+	top: 5px;
+	/*width: 18%;*/
+	width: 350px;
+	/*border: 1px solid black;*/
+	background-color: #f8f8f8;
+
+}
+
+.div-header {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.header {
+	font-size: 1.2em;
+	margin-left: 10px;
+	/*border: 1px solid black;*/
+}
+
+.btn-clear {
+	width: 150px;
+	margin-left: 30px;
+}
+
+.container-action {
+	background-color: #efefef;
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.btn-menu {
+	margin-bottom: 5px;
+	/*margin-left: 10%;*/
+	margin-left: 2px;
+	/*width: 80%;*/
+	width: 100px;
+	overflow: hidden;
+}
+
+.menu-block {
+	margin-bottom: 5px;
+}
+
+.input100 {
+	width: 100px;
+	display: inline-block;
+}
+.input50 {
+	width: 50px;
+	display: inline-block;
+}
+.input150 {
+	width: 150px;
+	display: inline-block;
+}
+
+div .checkbox {
+	display: inline-block;
+}
+
+.input-group {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+.input-group button {
+	width: 100px;
+}
+
+.selected {
+	background-color: lightblue !important;
+}
+
+
+.search-selected {
+	background-color: lightyellow !important;
+}
+
+.visible-on {
+	/*visibility: visible;*/
+	display: table-row;
+}
+
+.visible-off {
+	/*visibility: hidden;*/
+	display: none;
+}
+
+
+tbody[name="table"] tr:nth-child(odd) {
+	background-color: #f8f8f8;
+}
