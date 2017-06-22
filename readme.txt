@@ -13,7 +13,9 @@ Ka¿da operacja zajmuje czas. Gdy elementów jest du¿o, czas ten jest wielokrotnie
 wykonywanie tych operacji i porównujê te wyniki ze sob¹. 
 Aplikacje testowe dostepne s¹ w repozytoriach mgr-test-app-angular1, mgr-test-app-angular2, mgr-test-app-react, mgr-test-app-vanillajs. 
 Chc¹c uruchomiæ ca³y projekt, nalezy je wszystkie pobraæ do tego katalogu (main). 
-Wiecej info: https://github.com/krzysiekdz/mgr-test-app-prototype
+
+Opis funkcjonalnisci aplikacji testowej : https://github.com/krzysiekdz/mgr-test-app-prototype
+
 
 2.
 Do badañ aplikacji testowych wspominanych wy¿ej, utworzylem kolejn¹ aplikacjê (by zautoamtyzowac 
