@@ -12,10 +12,9 @@ W tym celu utworzylem aplikacje testowe we frameworkach:
 - react, 
 
 oraz czystym javascript (vanillajs), dla porównania 
-Każda ap testowa pod wzglêdem funkcjonalnoœci jest identyczna. Podstaw¹ s¹ operacje na du¿ej liczbie losowych elementów danych modelu i manipulowanie nimi dodawanie, usuwanie, edycja, zamiana miejscami, filtrowanie itp). 
-Ka¿da operacja zajmuje czas. Gdy elementów jest du¿o, czas ten jest wielokrotnie wiekszy 
-(co pozwala wychwiciæ ró¿nice). W pracy badam ile czasu zajmuje poszczegolnym frameworkom 
-wykonywanie tych operacji i porównujê te wyniki ze sob¹. 
+
+Każda aplikacja testowa pod względem funkcjonalnoœci jest identyczna. Podstawą są operacje na dużej liczbie losowych elementów danych modelu i manipulowanie nimi (dodawanie, usuwanie, edycja, zamiana miejscami, filtrowanie itp). Każda operacja zajmuje czas. Gdy elementów jest dużo, czas ten jest wielokrotnie wiekszy 
+(co pozwala wychwycić różnice). W pracy badam ile czasu zajmuje poszczegolnym frameworkom wykonywanie tych operacji i porównuje je z czasem vanillajs. 
 Aplikacje testowe dostepne s¹ w repozytoriach mgr-test-app-angular1, mgr-test-app-angular2, mgr-test-app-react, mgr-test-app-vanillajs. 
 https://github.com/krzysiekdz/mgr-test-app-vanillajs
 https://github.com/krzysiekdz/mgr-test-app-angular1
