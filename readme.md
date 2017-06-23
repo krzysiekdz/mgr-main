@@ -10,6 +10,7 @@ W tym celu utworzylem aplikacje testowe we frameworkach:
 - angular, 
 - angular2, 
 - react, 
+
 oraz czystym javascript (vanillajs), dla porównania 
 Każda ap testowa pod wzglêdem funkcjonalnoœci jest identyczna. Podstaw¹ s¹ operacje na du¿ej liczbie losowych elementów danych modelu i manipulowanie nimi dodawanie, usuwanie, edycja, zamiana miejscami, filtrowanie itp). 
 Ka¿da operacja zajmuje czas. Gdy elementów jest du¿o, czas ten jest wielokrotnie wiekszy 
