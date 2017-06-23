@@ -22,31 +22,18 @@ Aplikacje testowe dostepne są w repozytoriach:
 Ze wzgledu że wszystkie te aplikacje realizuja te same zadania, opis funkcjonalności umieściłem w jednym pliku: https://github.com/krzysiekdz/mgr-test-app-prototype
 
 ### 2.
-Do badañ aplikacji testowych wspominanych wy¿ej, utworzylem kolejn¹ aplikacjê (by zautoamtyzowac 
-proces badania), podzielon¹ na trzy mniejsze : (app1, app2, app3). 
+Do badań wyżej wymienionych aplikacji testowych, utworzylem program testowy napisany w środowisku nodejs. Dzieki temu badania są przeprowadzane automatycznie. Program do testowania składa się z trzech mniejszych, finezyjnie nazwanych: app1, app2, app3.
 
-Testowanie w skrócie (sposób rêczny)
-Badania przeprowadzam w przegl¹darce chrome, gdy¿ posiada ona rozbudowany zestaw narzêdzi do 
-badania wydajnoœci aplikacji webowych (timeline, tracing).
-Uruchamiam serwer poprzez który bedê ³¹czy³ siê z aplikacjami testowymi, wpisujê adres dowolnej, 
-np http://localhost:8080/vanillajs/public (aplikacja w czystym js). Chcê np przetestowaæ ile 
-czasu zajmie dodawanie 1tys elementów do strony. W tym celu wpisuje w odpowiednie pole iloœc 
-dodawanych elementów (1000) klikam odpowiedni przycisk (add). Nastêpuje dodanie elementów 
-w aplikacji. Nastepnie wciskam przycisk clear - aby pozbyc sie dodanych elementów. Znowu 
-wciskam kombinacje add-clear, aby dodac i usunac dodane elementy. Badanie to (dodanie 1 tys 
-elementow) powtarzam kilkukrotnie aby otrzymaæ dokladniejsze rezultaty. Czas generowania 
-elementów , ich dodawania, oraz renderowania strony mogê zmierzyæ w chrome przy uzyciu 
-narzêdzia timeline (teraz zakladka performance). Z wykresów odczytujê czas wykonywania 
-skryptu, czasy renderingu oraz calkowity czas dla kazdego dodawania jakie wykonalem, wyniki 
-uœredniam (uprzednio odrzucam kilka najgorszych, albo moge tez wybrac kilka najlepszych 
-i usrednic). Tak samo posteuje dla innych przypadków (usuwanie, edycja, filtrowanie itp). 
-W efekcie otrzymam czasy trwania poszczegolnych operacji (zwanych benchmarkami) dla poszczególnych frameworków.
+Testowanie w skrócie (sposób ręczny)
+Badania przeprowadzam w przeglądarce chrome, gdyż posiada ona rozbudowany zestaw narzędzi do analizy wydajności aplikacji webowych (timeline, tracing). Uruchamiam serwer poprzez który będę łączył się z aplikacjami testowymi, wpisuję w przeglądarkę adres dowolnej, np http://localhost:8080/vanillajs/public (aplikacja w czystym js). Uruchamian konsolę chrome (ctr+shift+c), zakładka performance, ctrl+e (rozpoczęcie rejestrowania wydajności). Przykładowo chcę zbadać przypadek dodawania 1tys elementów do strony. W tym celu wpisuje w odpowiednie pole ilość dodawanych elementów (1000), klikam odpowiedni przycisk (add). Następuje dodanie elementów w aplikacji. Nastepnie wciskam przycisk clear - aby pozbyc sie dodanych elementów. Znowu wciskam kombinacje add-clear, aby dodawać i usuwać dodawane elementy (aby doadwanie zawsze było w tym samym stanie aplikacji). Kilkukrotne powtarzanie wykonuję aby z otrzymanych próbek obliczyć średnie czasy. Przechodzę znowu do zakładaki performance i wciskam ctrl+e aby zakończyć test. Z wykresów odczytuję takie informacje jak czas wykonywania skryptu, czasy renderingu oraz calkowity czas dla kazdego dodawania jakie wykonalem. Obliczając średnie czasy moge wybrać kilka najlepszych próbek i je uśrednić albo odrzucić kilka najgorszych a usrednic pozostałe. Analogicznie posteuje dla innych przypadków (usuwanie, edycja, filtrowanie itp). W efekcie otrzymam czasy trwania poszczegolnych operacji (zwanych benchmarkami) dla poszczególnych frameworków.
 
-Powy¿sze kroki programowo wykonujê za pomoc¹ aplikacji umieszczonych 
-w repozytoriach mgr-app1, mgr-app2, mgr-app3.
-https://github.com/krzysiekdz/mgr-app1
-https://github.com/krzysiekdz/mgr-app2
-https://github.com/krzysiekdz/mgr-app3
+Powyższe kroki programowo wykonuję za pomocą aplikacji app1, app2, app3.
+- [app1](https://github.com/krzysiekdz/mgr-app1) - "wyklikiwanie" testów i zapisywaniu wykresów do folderu "traces"
+- [app2](https://github.com/krzysiekdz/mgr-app2) - odczyt wykresów z plików, przetwarzanie i uśrednianie czasów, zapis wyników do pliku results.json
+- [app3](https://github.com/krzysiekdz/mgr-app3) - prezentacja wyników z pliku results.json
+
+
+
 Chcac uruchomiæ projekt, nale¿y je pobraæ do tego katalogu (main).
 
 3.
