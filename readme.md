@@ -34,24 +34,15 @@ Powyższe kroki programowo wykonuję za pomocą aplikacji app1, app2, app3.
 - [app3](https://github.com/krzysiekdz/mgr-app3) - prezentacja wyników z pliku results.json
 
 
-
-Chcac uruchomiæ projekt, nale¿y je pobraæ do tego katalogu (main).
-
-3.
+### 3.
 Uruchamanie projektu: 
-npm install  (instalowanie zaleznosci)
-Budowanie projektu:
-npm build (jesli chcemy wnosic modyfikacje do kodu, w przeciwnym razie niepotrzebne)
-
-nastepnie polecenie (w tym katalogu):
-http-server  (aby udostepnic aplikacje testowe)
-(jesli nie dzia³a, nalezy zainstalowac je poleceniem: npm http-sever -g)
-
-nastepnie :
-node app1/benchmark-runner.js  (uruchomic testowanie wybranych operacji na frameworkach)
-node app2/trace-processor.js  (przetwarzanie wynikow)
-
-ostatecznie:
-app3/index.html - wizualizacja wyników
+- Zainstalować nodejs.
+- Pobrac wszystkie repozytoria do tego folderu
+- Polecenie: npm install  (instalowanie zaleznosci)
+- Budowanie projektu: npm build (jesli chcemy wnosic modyfikacje do kodu, w przeciwnym razie niepotrzebne)
+- Polecenie: http-server  (aby udostepnic aplikacje testowe; jesli nie działa, nalezy zainstalowac je poleceniem: npm http-sever -g)
+- Poleceni: node app1/benchmark-runner.js  (uruchamia automatyczne "wyklikiwanie" testów)
+- Polecenie: node app2/trace-processor.js  (przetwarzanie wynikow)
+- ostatecznie: http://localhost:8080/webdriver/app3/index.html - wizualizacja wyników
 
 
