@@ -17,7 +17,10 @@ Każda aplikacja testowa pod względem funkcjonalnoœci jest identyczna. Podstaw
 (co pozwala wychwycić różnice). W pracy badam ile czasu zajmuje poszczegolnym frameworkom wykonywanie tych operacji i porównuje je z czasem vanillajs. 
 
 Aplikacje testowe dostepne są w repozytoriach:
-[mgr-test-app-vanillajs](https://github.com/krzysiekdz/mgr-test-app-vanillajs), [mgr-test-app-angular1](https://github.com/krzysiekdz/mgr-test-app-angular1), [mgr-test-app-angular2](https://github.com/krzysiekdz/mgr-test-app-angular2), mgr-test-app-react (na razie niedostępna)
+- [mgr-test-app-vanillajs](https://github.com/krzysiekdz/mgr-test-app-vanillajs), 
+- [mgr-test-app-angular1](https://github.com/krzysiekdz/mgr-test-app-angular1), 
+- [mgr-test-app-angular2](https://github.com/krzysiekdz/mgr-test-app-angular2), 
+- mgr-test-app-react (na razie niedostępna)
 
 Ze wzgledu że wszystkie te aplikacje realizuja te same zadania, opis funkcjonalności umieściłem w jednym pliku: https://github.com/krzysiekdz/mgr-test-app-prototype
 
